@@ -1,0 +1,21 @@
+@import "../../common/colors.scss";
+
+.fonts{
+    font-size: 20px !important
+}
+
+.small-font{
+    font-size: 15px;
+}
+
+.icons-font{
+    font-size: 12px;
+}
+
+.customer-row{
+    padding: 10px;
+}
+
+.customer-row:nth-child(2n) {
+    background-color: $secondary-color;
+  }

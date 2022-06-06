@@ -1,0 +1,47 @@
+@import "../../common/colors.scss";
+
+.search{
+    border-left: 5px solid $primary-dark-color;
+    border-right: 5px solid $primary-dark-color;
+    border-top: 5px solid black;
+    background-color: $primary-color;
+    box-shadow: 2px 6px 1px -2px $secondary-color;
+    padding: 10px 10px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.search-bar::placeholder { 
+    color: $secondary-color;
+    opacity: 1; 
+}
+
+.search-icon{
+    color: $secondary-color;
+}
+
+.search-bar{
+    border: none;
+    border-bottom: 1px solid $secondary-color;
+    margin-left: 3%;
+    color: $text-color ;
+    outline: none;
+    text-transform: capitalize;
+    width: 100% !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .search-bar {
+        width: 100% !important;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .search-bar {
+        margin-left: 8%;
+    }
+}
