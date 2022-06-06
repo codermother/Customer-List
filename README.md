@@ -13,6 +13,7 @@ You can check the site here
 - Bootstrap
 - Node-SASS
 - Axios
+- Material UI
 - Responsive Design
 - Deploy the App LIVE on Firebase
 
